@@ -1,6 +1,7 @@
 import axios from 'axios';
+const apiKey = import.meta.env.VITE_GEMINI_API_KEY;
 
-const apiKey = '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';
+
 
 export default async function runAI(prompt) {
   try {
