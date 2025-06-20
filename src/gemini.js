@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiKey = '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';
+const apiKey = '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';
 
 export default async function runAI(prompt) {
   try {
